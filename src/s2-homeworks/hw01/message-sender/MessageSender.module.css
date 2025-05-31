@@ -1,18 +1,50 @@
 .sendForm {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1136px;
+    margin-top: 100px;
 }
 
 .textarea {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    width: 976px;
+    padding: 12px 24px;
+    background-color: #F5F7FB;
+    box-shadow: 0 1px 2px 0 rgba(29, 33, 38, 0.1),
+    0 5px 20px 0 rgba(29, 33, 38, 0.03);
+    border: none;
+    border-radius: 20px;
+}
 
+.textarea:focus {
+    outline: none;
 }
 
 .button {
-
+    width: 120px;
+    height: 40px;
+    padding: 10px 38px;
+    background-color: #0066CC;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    transition: all 0.3s ease; /* Плавные анимации для всех свойств */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень */
 }
 
 .button:hover {
-
+    background-color: #0052A3; /* Темнее на 10% */
+    transform: translateY(-2px); /* Легкий подъем */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Увеличенная тень */
 }
-.button:active {
 
+.button:active {
+    background-color: #003D7A; /* Еще темнее */
+    transform: translateY(0); /* Возврат в исходное положение */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Уменьшенная тень */
 }
