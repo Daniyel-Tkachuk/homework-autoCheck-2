@@ -32,7 +32,7 @@
 }
 
 .default:hover {
-    background-color: #0080FF;
+    background-color: #E5F0FA;
 }
 
 .red:hover {
@@ -40,17 +40,20 @@
 }
 
 .secondary:hover {
-    background-color: rgba(0, 102, 204, 0.1);
+    background-color: #E5F0FA;
 }
 
 
 .default:active {
+    background-color: #0059B2;
 }
 
 .secondary:active {
+    background-color: #C9E5FF;
 }
 
 .red:active {
+    background-color: #B21232;
 }
 
 .button:disabled {
