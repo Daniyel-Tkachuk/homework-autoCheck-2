@@ -1,15 +1,45 @@
 .radio {
+    appearance: none;        /* убираем стандартный кружок браузера */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;  /* обводка кружка */
+    border-radius: 50%;      /* делаем круглым */
+    position: relative;
+    cursor: pointer;
 }
 
 .radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background: white;       /* белая точка внутри */
+    border-radius: 50%;
 }
 
 
 .radio:checked::before {
+    background-color: #000;
+}
+
+.radio:checked {
+    border-color: #1e90ff;
 }
 
 .label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
 }
