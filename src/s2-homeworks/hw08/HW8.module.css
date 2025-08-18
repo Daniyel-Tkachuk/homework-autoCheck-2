@@ -5,19 +5,56 @@
 }
 
 .users {
+    border-collapse: collapse;
+    margin-top: 18px;
+    min-width: 606px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
 }
 
 .buttonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 12px;
+    width: 606px;
 }
 
 .container {
+    width: 100%;
 }
 
 .thead {
 }
 
+.thead tr td {
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #E5E5E5;
+    color: #000;
+    text-align: left;
+}
+
+.users td {
+    padding: 17px 11px;
+}
+
+.users tbody tr {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.users tbody tr:last-of-type {
+    border-bottom: none;
+}
+
 .nameCol {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
 }
 
 .ageCol {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
 }
