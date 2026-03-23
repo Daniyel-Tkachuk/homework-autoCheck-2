@@ -2,22 +2,23 @@
     --header_height: 60px;
 }
 
-.hw1Test {
-    display: flex;
-    flex-direction: column;
-    width: 1140px;
+.hw {
+
 }
 
-.hw {
-    width: 1200px;
+.wrapperHW1 {
+
+}
+
+.hw1 {
+    width: 800px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
 .hwTitle {
-    text-align: center;
     font-size: 20px;
-    font-weight: 900;
-    margin-bottom: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
 }
-
