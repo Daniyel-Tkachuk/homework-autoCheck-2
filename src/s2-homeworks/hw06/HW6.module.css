@@ -1,5 +1,14 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 .buttonsContainer {
+    display: flex;
+    gap: 24px;
+    margin-top: 16px;
 }
 
 .editableSpanContainer {
+    min-height: 40px;
 }
